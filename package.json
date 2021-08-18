@@ -1,0 +1,31 @@
+{
+  "name": "ecommerce-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/server",
+    "server": "nodemon backend/server",
+    "client":"npm start --prefix client",
+    "clientinstall":"npm install --prefix client",
+    "dev":"concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Knight-Khode/ecommerce-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Knight-Khode/ecommerce-site/issues"
+  },
+  "homepage": "https://github.com/Knight-Khode/ecommerce-site#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.1",
+    "nodemon": "^2.0.12"
+  }
+}
