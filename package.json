@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "start": "node backend/server",
     "server": "nodemon backend/server",
@@ -24,7 +24,8 @@
   "homepage": "https://github.com/Knight-Khode/ecommerce-site#readme",
   "dependencies": {
     "dotenv": "^10.0.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^5.13.7"
   },
   "devDependencies": {
     "concurrently": "^6.2.1",
